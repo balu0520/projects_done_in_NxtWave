@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.product-failure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-failure-icon {
+  height: 170px;
+  width: 200px;
+}
+.product-failure-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.product-failure-btn {
+  color: #ffffff;
+  border-width: 0px;
+  background-color: #3b82f6;
+  height: 45px;
+  width: 150px;
+  outline: none;
+  cursor: pointer;
+}
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  padding-right: 0px;
+  padding-left: 25px;
+}
+.product-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.product-item-img {
+  height: 350px;
+  width: 200px;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.product-item-description-container {
+  display: flex;
+  flex-direction: column;
+}
+.product-item-title {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.product-item-price {
+  color: #12022f;
+  font-family: 'Roboto';
+}
+.product-item-review-container {
+  display: flex;
+  align-items: center;
+}
+.product-item-review {
+  color: #ffffff;
+}
+.rating {
+  height: 30px;
+  width: 50px;
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-icon {
+  height: 25px;
+}
+.total-reviews {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.product-item-description {
+  color: #cbced2;
+  font-family: 'Roboto';
+}
+.product-item-availability {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.product-solution {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+.product-count-container {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}
+.similar-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+.similar-products-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-self: flex-start;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-cart-btn {
+  border-width: 0;
+  height: 45px;
+  width: 150px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 8px;
+}
